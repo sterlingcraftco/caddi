@@ -36,7 +36,7 @@ jobs:
       - name: Upload Release Assets
         uses: ncipollo/release-action@v1
         with:
-          assets: |
+          artifacts: |
             caddi-linux-amd64
             caddi-linux-arm64
             caddi-darwin-amd64
